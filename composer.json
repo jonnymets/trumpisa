@@ -1,0 +1,16 @@
+{
+    "require": {
+        "symfony/twig-bridge": "^2.7",
+        "rebangm/silex-guzzlehttp-provider": "^1.2",
+        "mongodb/mongodb": "^1.1",
+        "silex/silex": "~2.0",
+        "lalbert/silex-mongodb": "^1.0",
+        "symfony/var-dumper": "^3.2",
+        "google/recaptcha": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+          "JAS\\": "src/JAS"
+        }
+    }
+}

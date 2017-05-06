@@ -1,0 +1,37 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+	<div class="row">
+		<div class="col-sm-8 col-sm-offset-2" id="app-meat">
+			<div class="page-header text-center">
+			  <h1>Donald Trump is a<small><small>(n)</small></small>...</h1>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<form onsubmit="return word_go(this);">
+						<div class="input-group">						
+							<input type="text" id="word" class="form-control input-lg" placeholder="{{placeholder}}">
+							<span class="input-group-btn">
+								<button type="submit" id="word-btn" class="btn btn-default btn-lg btn-info" type="button">Speak Your Mind</button>
+							</span>
+						</div>
+						<div id='recaptcha' class="g-recaptcha" data-sitekey="{{recaptcha_public}}" data-callback="word_go_go" data-size="invisible"></div>
+					</form>
+					<div class="row">				
+						<div class="col-sm-5 col-sm-offset-7">
+							<small class="text-muted">Maximum {{max_words}} words. Maximium {{max_chars}} characters.</small>
+						</div>
+					</div>
+				</div>			
+				<div class="col-sm-12" id="word-done" style="display:none;">
+					<h2 class="text-success">Thanks. We all know he watches this stuff.</h2>
+					<h4 id="word-people" style="display:none;">He has now been described this way <span></span> times!</h4>
+					<h4 id="word-person" style="display:none;">You are the first person to describe him like this!</h4>
+				</div>
+				<div class="col-sm-8 col-sm-offset-2">					
+					<div id="word-data"></div>						
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock %}

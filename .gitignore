@@ -1,0 +1,4 @@
+vendor/
+.env
+web/config_local.php
+.DS_Store

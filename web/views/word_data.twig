@@ -1,0 +1,9 @@
+<h3>Top 5 opinions of our President</h3>
+<ul class="list-group word-data" id="word-data-all">
+	{% for word in word_data.all %}
+		<li class="list-group-item">
+			<span class="badge">{{word.count}} {% if word.count != 1 %}people{% else %}person{% endif %}</span>
+			{{word.word}}
+		</li>
+	{% endfor %}
+</ul>

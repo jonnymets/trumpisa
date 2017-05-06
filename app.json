@@ -1,0 +1,6 @@
+{
+  "name": "JAS",
+  "description": "Empty heroku app",
+  "repository": "https://git.heroku.com/jas.git",
+  "addons": []
+}
