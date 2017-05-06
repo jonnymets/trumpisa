@@ -2,7 +2,7 @@
 <ul class="list-group word-data" id="word-data-all">
 	{% for word in word_data.all %}
 		<li class="list-group-item">
-			<span class="badge">{{word.count}} {% if word.count != 1 %}people{% else %}person{% endif %}</span>
+			<span class="badge">{{word.count}} {% if word.count != 1 %}Times{% else %}Time{% endif %}</span>
 			{{word.word}}
 		</li>
 	{% endfor %}
