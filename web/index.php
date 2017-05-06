@@ -16,7 +16,7 @@ if($app['debug'])
 // register mongo database
 $app->register(new Lalbert\Silex\Provider\MongoDBServiceProvider(), [
     'mongodb.config' => [
-        'server' => getenv("MONGODB_URI"),
+        'server' => getenv(getenv("MONGODB_VAR")),
         'options' => [],
         'driverOptions' => [],
     ]
