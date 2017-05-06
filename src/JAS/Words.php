@@ -24,7 +24,7 @@ class Words extends Home implements ControllerProviderInterface {
 		
 		//all time leaders
 		$words_all = array();
-		$words_data = $app['mongodb']->$db_name->words->find([], ['limit'=>$max_words,'sort' => ['count' => -1]]);
+		$words_data = $app['mongodb']->$db_name->words->find([], ['limit'=>$max_words,'sort' => ['count' => -1, 'last_used' => -1]]);
 		if($words_data)
 		{
 			foreach($words_data as $wd)
