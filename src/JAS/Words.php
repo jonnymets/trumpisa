@@ -19,7 +19,7 @@ class Words extends Home implements ControllerProviderInterface {
 	//retrieve live summary
 	public function word_data(Application $app, Request $request)
 	{
-		$max_words = 5;
+		$max_words = 10;
 		$db_name = getenv("MONGO_DB");
 		
 		//all time leaders

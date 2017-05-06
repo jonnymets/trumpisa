@@ -1,5 +1,6 @@
 $(document).ready(function() {
-	//$("#word-data").load("/words/data");	
+	if(show_data)
+		$("#word-data").load("/words/data");	
 });
 
 function word_go(form)
