@@ -43,7 +43,10 @@ function word_go(form)
 	}
 	
 	//load up robot protection
-	grecaptcha.execute();
+	if(recaptcha)
+		grecaptcha.execute();
+	else
+		word_go_go(token_djt);
 	
 	return false;
 }
@@ -60,12 +63,13 @@ function word_go_go(token)
         success: function(resp)
 		{
 			$("word-btn").button("reset");
-			grecaptcha.reset();
+			if(recaptcha) grecaptcha.reset();
 			
 			if(resp.success)
 			{
 				$("#word-data").load("/words/data");
 				$("#word").val("");
+				$("#word-done h4").hide();
 				if(resp.data.count > 1)
 				{
 					$("#word-people span").text(resp.data.count);
@@ -99,7 +103,7 @@ function reqs_error()
 	$("word-btn").button("reset");
 	swal({
 		title: "Regulation is good sometimes.",
-		text: "We found this is more fun when we limit entries to just 2 words and a maximum of 75 characters.",
+		text: "We found this is more fun when we limit entries to just " + max_words + " words and a maximum of " + max_length + " characters.",
 		type: "error"
 	});	
 }
