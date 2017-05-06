@@ -2,4 +2,6 @@
 <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script src="/js/app.min.js" async defer></script>
 <script src="/js/sweetalert.min.js"></script>
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+{% if recaptcha %}
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+{% endif %}

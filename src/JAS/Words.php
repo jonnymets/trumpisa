@@ -53,14 +53,18 @@ class Words extends Home implements ControllerProviderInterface {
 		$resp['error_code'] = "";
 		$resp['word'] = $word = (empty($request->get('word'))) ? "" : $request->get('word');
 		$token = (empty($request->get('token'))) ? "" : $request->get('token');
+		$recaptcha = (getenv("RECAPTCHA_ON") == "1");
 		
 		//validate recaptcha
-		$recaptcha = new \ReCaptcha\ReCaptcha(getenv("RECAPTCHA_SECRET"));
-		$recaptcha_resp = $recaptcha->verify($token, $this->get_ip_address());
-		if (!$recaptcha_resp->isSuccess() || $recaptcha_resp->getHostName() !== getenv("APP_DOMAIN"))
+		if($recaptcha)
 		{
-			$resp['error_code'] = "input";
-			return $app->json($resp);
+			$recaptcha = new \ReCaptcha\ReCaptcha(getenv("RECAPTCHA_SECRET"));
+			$recaptcha_resp = $recaptcha->verify($token, $this->get_ip_address());
+			if (!$recaptcha_resp->isSuccess() || $recaptcha_resp->getHostName() !== getenv("APP_DOMAIN"))
+			{
+				$resp['error_code'] = "input";
+				return $app->json($resp);
+			}
 		}
 		
 		//validate word length

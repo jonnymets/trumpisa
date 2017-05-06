@@ -29,6 +29,7 @@ class Home implements ControllerProviderInterface {
 		$defaults[] = 'Putin pawn?';
 		$defaults[] = 'Egomaniac?';
 		
+		$data['recaptcha'] = (getenv("RECAPTCHA_ON") == "1");		
 		$data['recaptcha_public'] = getenv("RECAPTCHA_PUBLIC");		
 		$data['max_words'] = getenv("WORD_MAX_WORDS");		
 		$data['max_chars'] = getenv("WORD_MAX_LENGTH");		

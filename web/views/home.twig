@@ -34,4 +34,10 @@
 			</div>
 		</div>
 	</div>
+	<script>
+		var recaptcha = {% if recaptcha %}true{% else %}false;{% endif %}
+		var max_words = {{max_words}};
+		var max_length = {{max_chars}};
+		var token_djt = "XX";
+	</script>
 {% endblock %}
