@@ -60,7 +60,7 @@ class Words extends Home implements ControllerProviderInterface {
 		{
 			$recaptcha = new \ReCaptcha\ReCaptcha(getenv("RECAPTCHA_SECRET"));
 			$recaptcha_resp = $recaptcha->verify($token, $this->get_ip_address());
-			if (!$recaptcha_resp->isSuccess() || $recaptcha_resp->getHostName() !== getenv("APP_DOMAIN"))
+			if (!$recaptcha_resp->isSuccess() || $recaptcha_resp->getHostName() !== $_SERVER['SERVER_NAME'])
 			{
 				$resp['error_code'] = "input";
 				return $app->json($resp);
