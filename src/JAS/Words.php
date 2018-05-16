@@ -12,6 +12,7 @@ class Words extends Home implements ControllerProviderInterface {
 	public function connect(Application $app) {
 		$factory = $app['controllers_factory'];		
 		$factory->post('/new','JAS\Words::word_post');
+		$factory->get('/data/all','JAS\Words::word_data_all');
 		$factory->get('/data','JAS\Words::word_data');
 		return $factory;
 	}
@@ -19,7 +20,17 @@ class Words extends Home implements ControllerProviderInterface {
 	//retrieve live summary
 	public function word_data(Application $app, Request $request)
 	{
-		$max_words = 10;
+		return $this->get_word_data($app);
+	}
+
+	//retrieve live summary
+	public function word_data_all(Application $app, Request $request)
+	{
+		return $this->get_word_data($app, 0);
+	}
+
+	public function get_word_data($app, $max_words = 10)
+	{	
 		$db_name = getenv("MONGO_DB");
 		
 		//all time leaders
@@ -41,6 +52,7 @@ class Words extends Home implements ControllerProviderInterface {
 				$words_today[] = ['word' => $wd->word, 'count' => $wd->count];
 		}*/
 		$data['word_data'] = ['all'=>$words_all, 'today'=>$words_today];
+		$data['max_words'] = $max_words;
 		
 		return $app['twig']->render('word_data.twig', $data);
 	}

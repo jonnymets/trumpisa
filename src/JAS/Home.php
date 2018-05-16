@@ -35,6 +35,7 @@ class Home implements ControllerProviderInterface {
 		$data['max_chars'] = getenv("WORD_MAX_LENGTH");		
 		$data['placeholder'] = $defaults[array_rand($defaults, 1)];
 		$data['show_data'] = isset($_GET['words']);
+		$data['show_data_all'] = isset($_GET['words_all']);
 				
 		return $app['twig']->render('home.twig', $data);
 	}	

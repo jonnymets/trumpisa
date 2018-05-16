@@ -1,6 +1,8 @@
 $(document).ready(function() {
-	if(show_data)
-		$("#word-data").load("/words/data");	
+	if(show_data_all)
+		$("#word-data").load("/words/data/all");
+	else if(show_data)
+		$("#word-data").load("/words/data");
 });
 
 function word_go(form)
