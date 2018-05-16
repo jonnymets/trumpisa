@@ -1,4 +1,8 @@
-<h3>Top 10 opinions of our President {% if max_words > 0 %}<small><small>(<a class="float-right" href="/?words_all">The Full List</a>)</small></small>{% endif %}</h3>
+{% if max_words > 0 %}
+<h3>Top 10 opinions of our President <small><small>(<a class="float-right" href="/?words_all">The Full List</a>)</small></small></h3>
+{% else %}
+<h3>The internet's opinions of our President</h3>
+{% endif %}
 <ul class="list-group word-data" id="word-data-all">
 	{% for word in word_data.all %}
 		<li class="list-group-item">
