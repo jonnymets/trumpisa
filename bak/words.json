@@ -1,0 +1,79 @@
+{"_id":{"$oid":"590de5f9108d74006e4de0e3"},"word":"embarrassment","last_used":{"$date":{"$numberLong":"1494095593567"}},"count":{"$numberInt":"2"}}
+{"_id":{"$oid":"590dfa1b108d74006f78bce3"},"word":"dangerous man","last_used":{"$date":{"$numberLong":"1494088219154"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590e00ab108d740070323c83"},"word":"impotent blowhard","last_used":{"$date":{"$numberLong":"1494089899335"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590e04ad108d74006f78bce5"},"word":"panzy","last_used":{"$date":{"$numberLong":"1494090925899"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590e0eb6108d74006e4de0e5"},"word":"entitled phony","last_used":{"$date":{"$numberLong":"1494093494359"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590e1279108d7400715af2f3"},"word":"lier","last_used":{"$date":{"$numberLong":"1494094457777"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590e16d6108d74006e4de0e7"},"word":"impeached president","last_used":{"$date":{"$numberLong":"1494095574406"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590e1a2b108d740070323c85"},"word":"spraytanned antichrist","last_used":{"$date":{"$numberLong":"1494096427334"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590e1a52108d74006e4de0e9"},"word":"chubby manchild","last_used":{"$date":{"$numberLong":"1494096466776"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590e1a72108d740070323c87"},"word":"bigly dickhead","last_used":{"$date":{"$numberLong":"1494096498386"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590e1e67108d74006f78bce7"},"word":"child","last_used":{"$date":{"$numberLong":"1494097511878"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590e247590a62c006e734873"},"word":"dumb cookie","last_used":{"$date":{"$numberLong":"1494099061486"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590e281c90a62c006f2b6273"},"word":"russian creation","last_used":{"$date":{"$numberLong":"1494099996171"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590e2886336848006f095813"},"word":"liability","last_used":{"$date":{"$numberLong":"1494100102461"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590e2b8af34634007108f323"},"word":"abomination","last_used":{"$date":{"$numberLong":"1494100874137"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590e2c34f34634007108f325"},"word":"ticking bomb","last_used":{"$date":{"$numberLong":"1494101044179"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590e2ccef34634007079e373"},"word":"republic infection","last_used":{"$date":{"$numberLong":"1494101198857"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590e3331f34634006f633bf3"},"word":"butt muncher","last_used":{"$date":{"$numberLong":"1494102833126"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590e38c7f34634007079e375"},"word":"losing sort","last_used":{"$date":{"$numberLong":"1494104263858"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590e38edf34634006f633bf5"},"word":"sad sack","last_used":{"$date":{"$numberLong":"1494104301851"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590e38fdf34634007108f327"},"word":"odd duck","last_used":{"$date":{"$numberLong":"1494104317336"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590e733ef34634006f633bf7"},"word":"orange cheeto","last_used":{"$date":{"$numberLong":"1494119230676"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590e7350f34634007108f329"},"word":"turkey neck","last_used":{"$date":{"$numberLong":"1494119248221"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590f15e0f34634007079e377"},"word":"fraud","last_used":{"$date":{"$numberLong":"1494160864733"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590f1843f34634006f633bf9"},"word":"bad hombre","last_used":{"$date":{"$numberLong":"1494161475661"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590f2c19f34634007108f32b"},"word":"putin pawn?","last_used":{"$date":{"$numberLong":"1494166553777"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590f7fb8f34634007079e379"},"word":"mistake","last_used":{"$date":{"$numberLong":"1494187960229"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590f7fcaf34634006e4181d3"},"word":"disaster","last_used":{"$date":{"$numberLong":"1494187978934"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"590fa8bc5bf087006e4f3fd3"},"word":"3rd grader","last_used":{"$date":{"$numberLong":"1494198460734"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"591076b95bf08700707a3e83"},"word":"marmalade pancake","last_used":{"$date":{"$numberLong":"1494251193650"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"591078435bf087006e4f3fd5"},"word":"lying twit","last_used":{"$date":{"$numberLong":"1494251587417"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"591079a65bf087006e4f3fd7"},"word":"narcissistic blowhard","last_used":{"$date":{"$numberLong":"1494251942844"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"591079b45bf087006f3ed3f3"},"word":"bad president.","last_used":{"$date":{"$numberLong":"1494251956950"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"591079ed5bf0870071797fa3"},"word":"autocrat","last_used":{"$date":{"$numberLong":"1494252013858"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"59107ac85bf087006f3ed3f5"},"word":"tragic inevitability","last_used":{"$date":{"$numberLong":"1494252232614"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"5910823d5bf08700707a3e85"},"word":"criminal","last_used":{"$date":{"$numberLong":"1494267947362"}},"count":{"$numberInt":"2"}}
+{"_id":{"$oid":"591085945bf087006f3ed3f7"},"word":"sociopath","last_used":{"$date":{"$numberLong":"1494254996289"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"591092735bf0870071797fa5"},"word":"surreal being","last_used":{"$date":{"$numberLong":"1494258291843"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"591092d05bf087006e4f3fd9"},"word":"dinghus","last_used":{"$date":{"$numberLong":"1494258384938"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"5910b0065bf087006f3ed3f9"},"word":"ass wipe","last_used":{"$date":{"$numberLong":"1494265862537"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"5910b3e95bf08700707a3e87"},"word":"numb nut","last_used":{"$date":{"$numberLong":"1494266857936"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"5910bb1f5bf0870071797fa7"},"word":"blobby sack","last_used":{"$date":{"$numberLong":"1494268703205"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"5910bb695bf08700707a3e89"},"word":"criminal embarrassment","last_used":{"$date":{"$numberLong":"1494268777732"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"5910be4c5bf0870071797fa9"},"word":"traitor","last_used":{"$date":{"$numberLong":"1494269516985"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"5910de10e3f944007174b413"},"word":"regrettable situation","last_used":{"$date":{"$numberLong":"1494277648426"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"5910de3ae3f9440070741c93"},"word":"pathological liar","last_used":{"$date":{"$numberLong":"1494277690860"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"59112c32e3f944006e7b20f3"},"word":"doomsday expeditor","last_used":{"$date":{"$numberLong":"1494297650669"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"59124ed9de6a92006f5f9dd3"},"word":"worldclass disgrace","last_used":{"$date":{"$numberLong":"1494372057572"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"59124effde6a9200713e8dc3"},"word":"evil ignoramus","last_used":{"$date":{"$numberLong":"1494372095291"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"59135640de6a92006f5f9dd5"},"word":"orange disaster","last_used":{"$date":{"$numberLong":"1494439488225"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"59135665de6a9200713e8dc5"},"word":"fucking disaster","last_used":{"$date":{"$numberLong":"1494439525136"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"5913ca401f1ef000713d3923"},"word":"ignoramous","last_used":{"$date":{"$numberLong":"1494469184447"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"591482f31f1ef0007018c9b3"},"word":"gaslighter","last_used":{"$date":{"$numberLong":"1494516467966"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"591483151f1ef0006e2ba153"},"word":"tremendous failure","last_used":{"$date":{"$numberLong":"1494516501629"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"592c4eb0a787e000703b8243"},"word":"fool","last_used":{"$date":{"$numberLong":"1496075952498"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"59414fd1449409006f04a463"},"word":"dick","last_used":{"$date":{"$numberLong":"1497452497535"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"59414fed449409007051f953"},"word":"dick dork","last_used":{"$date":{"$numberLong":"1501094983239"}},"count":{"$numberInt":"4"}}
+{"_id":{"$oid":"594150ac449409006f04a465"},"word":"fart bagger","last_used":{"$date":{"$numberLong":"1497452716204"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"594150b9449409007051f955"},"word":"poop master","last_used":{"$date":{"$numberLong":"1497452729160"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"5941518a44940900712833f3"},"word":"cork bender","last_used":{"$date":{"$numberLong":"1497452938341"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"59415190449409006e69fb63"},"word":"flea bag","last_used":{"$date":{"$numberLong":"1497452944279"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"5978e41dfafadf006e0a1c53"},"word":"jerk","last_used":{"$date":{"$numberLong":"1501094941118"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"5978e431fafadf00707fadb3"},"word":"porn","last_used":{"$date":{"$numberLong":"1501094961484"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"5978e43afafadf006e0a1c55"},"word":"god","last_used":{"$date":{"$numberLong":"1501094970505"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"5978e43ffafadf00707fadb5"},"word":"fuckwit","last_used":{"$date":{"$numberLong":"1501095002613"}},"count":{"$numberInt":"5"}}
+{"_id":{"$oid":"5978e444fafadf006e0a1c57"},"word":"dick dor","last_used":{"$date":{"$numberLong":"1501094980238"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"597f3bac734ce4007118d783"},"word":"ass","last_used":{"$date":{"$numberLong":"1501510572067"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"59e9615941eea10070023863"},"word":"populist","last_used":{"$date":{"$numberLong":"1508467033614"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"5a514ce61ead3c006e12cb03"},"word":"narcissist","last_used":{"$date":{"$numberLong":"1515277542431"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"5aee08fa30ff690070359a43"},"word":"collusioner","last_used":{"$date":{"$numberLong":"1525549306106"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"5afc88d7252d18006e7cfe03"},"word":"alduterer","last_used":{"$date":{"$numberLong":"1526499543834"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"5afc8ef7f4bd4e00715b9b13"},"word":"cheeto impersonator","last_used":{"$date":{"$numberLong":"1526501111397"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"5afca174f4bd4e006e0cdb23"},"word":"shit show","last_used":{"$date":{"$numberLong":"1526505844516"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"5b05b35f600188006e7ad523"},"word":"twat","last_used":{"$date":{"$numberLong":"1527100255597"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"5b05b3776001880070424a63"},"word":"cunt","last_used":{"$date":{"$numberLong":"1527100279206"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"5c39f577ed39de006e288d13"},"word":"fucking idiot","last_used":{"$date":{"$numberLong":"1547302263366"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"5c88c80f1095b4006e2acbb3"},"word":"nonce","last_used":{"$date":{"$numberLong":"1552467983886"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"5c88c8291095b40070658f13"},"word":"weeabo","last_used":{"$date":{"$numberLong":"1552468009338"}},"count":{"$numberInt":"1"}}
+{"_id":{"$oid":"5c88c8551095b4006e2acbb5"},"word":"genital virus","last_used":{"$date":{"$numberLong":"1552468053457"}},"count":{"$numberInt":"1"}}
